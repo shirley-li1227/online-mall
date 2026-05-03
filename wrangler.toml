@@ -1,0 +1,19 @@
+name = "online-mall"
+main = "worker/src/index.ts"
+compatibility_date = "2024-12-30"
+
+[assets]
+directory = "./web/dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "online-mall-db"
+database_id = "aa4a411a-e9c3-4dcc-9af4-51ba0265738d"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "afd7d579d37b4472b7470c90e2aa1eb5"
+
+[vars]
+# Optional: override in dashboard or .dev.vars
